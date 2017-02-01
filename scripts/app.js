@@ -16,6 +16,8 @@
                 }
                 if(dish>=4){
                     x.innerHTML = "Too much!";
+                }else if(!dishes || 0 === dishes.length){
+                    x.innerHTML = "Please enter data first!";
                 }else{
                     x.innerHTML = "Enjoy!";
                 }
